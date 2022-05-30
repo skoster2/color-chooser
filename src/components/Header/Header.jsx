@@ -11,7 +11,7 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import { useNavigate } from 'react-router-dom';
 
-const pages = [{title: 'Home',path: '/'}, {title:'Choose a color', path: '/Choose'}, {title:'My Collections', path: '/Collections'}, {title:'Find Me Colors', path: '/findmecolors'}];
+const pages = [{title:'Choose a color', path: '/Choose'}, {title:'My Collections', path: '/Collections'}, {title:'Find Me Colors', path: '/findmecolors'}];
 
 export const Header = () => {
   const navigate = useNavigate();
